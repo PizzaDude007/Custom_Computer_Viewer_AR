@@ -34,33 +34,6 @@ MonoBehaviour:
   dpiManager:
     overrides: []
   optimizedScreens:
-  - name: Landscape Small
-    checkOrientation:
-      expectedOrientation: 1
-      isActive: 1
-    checkScreenSize:
-      measureType: 1
-      unitType: 0
-      minSizeInInches: 0
-      maxSizeInInches: 4.7
-      isActive: 1
-    checkAspectRatio:
-      minAspect: 0.66
-      maxAspect: 1.5
-      inverse: 0
-      isActive: 0
-    checkDeviceType:
-      expectedDeviceInfo: 0
-      isActive: 0
-    checkScreenTag:
-      screenTag: 
-      isActive: 0
-    optimizedScreenInfo:
-      resolution: {x: 1920, y: 1080}
-      dpi: 96
-    fallbacks:
-    - Landscape
-    - Portrait Small
   - name: Landscape
     checkOrientation:
       expectedOrientation: 1
@@ -82,57 +55,6 @@ MonoBehaviour:
     checkScreenTag:
       screenTag: 
       isActive: 0
-    optimizedScreenInfo:
-      resolution: {x: 1920, y: 1080}
-      dpi: 96
-    fallbacks:
-    - Landscape Small
-  - name: Portrait Small
-    checkOrientation:
-      expectedOrientation: 0
-      isActive: 1
-    checkScreenSize:
-      measureType: 1
-      unitType: 0
-      minSizeInInches: 0
-      maxSizeInInches: 4.7
-      isActive: 1
-    checkAspectRatio:
-      minAspect: 0.66
-      maxAspect: 1.5
-      inverse: 0
-      isActive: 0
-    checkDeviceType:
-      expectedDeviceInfo: 0
-      isActive: 0
-    checkScreenTag:
-      screenTag: 
-      isActive: 0
-    optimizedScreenInfo:
-      resolution: {x: 1080, y: 1920}
-      dpi: 96
-    fallbacks: []
-  - name: Accessibility Mode
-    checkOrientation:
-      expectedOrientation: 1
-      isActive: 0
-    checkScreenSize:
-      measureType: 1
-      unitType: 0
-      minSizeInInches: 4.7
-      maxSizeInInches: 7.6
-      isActive: 0
-    checkAspectRatio:
-      minAspect: 0.66
-      maxAspect: 1.5
-      inverse: 0
-      isActive: 0
-    checkDeviceType:
-      expectedDeviceInfo: 0
-      isActive: 0
-    checkScreenTag:
-      screenTag: Accessibility_Mode
-      isActive: 1
     optimizedScreenInfo:
       resolution: {x: 1920, y: 1080}
       dpi: 96
